@@ -1,7 +1,6 @@
 package wuwamart.users;
 
 public class User {
-
     protected int id;
     protected String fullName;
     protected String userName;
@@ -20,15 +19,14 @@ public class User {
         this.password = password;
     }
 
-    public String gerPassword() {
+    public String getPassword() {
         return password;
     }
 
-    public void dispaly() {
-        System.out.println("Id       : " + id);
-        System.out.println("Name     : " + fullName);
-        System.out.println("UserName : " + userName);
-        System.out.println("Email    : " + email);
-
+    public void displayInfo() {
+        System.out.println("ID: " + id);
+        System.out.println("Name: " + fullName);
+        System.out.println("Username: " + userName);
+        System.out.println("Email: " + email);
     }
 }

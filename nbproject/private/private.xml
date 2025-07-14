@@ -7,10 +7,11 @@
             <file>file:/F:/WuwaMart/src/wuwamart/shop/Category.java</file>
             <file>file:/F:/WuwaMart/src/wuwamart/shop/SubCategory.java</file>
             <file>file:/F:/WuwaMart/src/wuwamart/shop/Order.java</file>
-            <file>file:/F:/WuwaMart/src/wuwamart/shop/Ticket.java</file>
             <file>file:/F:/WuwaMart/src/wuwamart/shop/DeliveryOrder.java</file>
+            <file>file:/F:/WuwaMart/src/wuwamart/shop/Ticket.java</file>
             <file>file:/F:/WuwaMart/src/wuwamart/shop/Shop.java</file>
             <file>file:/F:/WuwaMart/src/wuwamart/users/User.java</file>
+            <file>file:/F:/WuwaMart/src/wuwamart/users/Customer.java</file>
             <file>file:/F:/WuwaMart/src/wuwamart/users/Admin.java</file>
             <file>file:/F:/WuwaMart/src/wuwamart/users/Moderator.java</file>
             <file>file:/F:/WuwaMart/src/wuwamart/users/Rider.java</file>

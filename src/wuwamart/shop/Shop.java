@@ -1,19 +1,21 @@
-//Shop.java class = The entire WuwaMart storehouse, where categories are added and products are displayed.
 package wuwamart.shop;
-import java.util.*;
+
+import java.util.ArrayList;
+
 public class Shop {
-    private ArrayList<Category>categories;
-    public Shop(){
-        categories =new ArrayList<>();
+    private ArrayList<Category> categories;
+
+    public Shop() {
+        categories = new ArrayList<>();
     }
-    
-    public void addCatagory(Category cat){
+
+    public void addCategory(Category cat) {
         categories.add(cat);
         System.out.println("Category added to shop.");
     }
-    
-    public void displayAllCategories(){
-        for(Category c: categories){
+
+    public void displayAllCategories() {
+        for (Category c : categories) {
             c.displayCategory();
         }
     }
