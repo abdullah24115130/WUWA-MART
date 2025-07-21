@@ -1,13 +1,32 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+// 📁 File: com/abdullah/wuwamartfx/LoginController.java
 package com.abdullah.wuwamartfx;
 
-/**
- *
- * @author IT PRO
- */
+import javafx.fxml.FXML;
+import javafx.scene.control.TextField;
+import javafx.scene.control.PasswordField;
+
 public class LoginController {
-    
+
+    // 🔹 login.fxml এর TextField এবং PasswordField কে link করছি
+    @FXML
+    private TextField usernameField;
+
+    @FXML
+    private PasswordField passwordField;
+
+    // 🔹 Login Button এ click করলে এই মেথড call হবে
+    @FXML
+    private void handleLogin() {
+        String username = usernameField.getText();
+        String password = passwordField.getText();
+
+        if ("admin".equals(username) && "1234".equals(password)) {
+            System.out.println("✅ Login successful!");
+        } else {
+            System.out.println("❌ Invalid username or password.");
+        }
+    }
 }
+
+
+    

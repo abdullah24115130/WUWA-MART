@@ -1,6 +1,7 @@
 package com.abdullah.wuwamart.shop;
 
 public class Item {
+    
     private int itemId;
     private String itemName;
     private double stock;
