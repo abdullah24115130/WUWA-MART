@@ -30,7 +30,7 @@ Welcome to **WuwaMart**, a beginner-to-intermediate level **Java project** that 
 
 | Layer       | Technology         |
 |-------------|--------------------|
-| Language    | Java (JDK 17–21)   |
+| Language    | Java (JDK 24.0)   |
 | GUI         | JavaFX             |
 | Build Tool  | Ant / NetBeans     |
 | Structure   | OOP (Encapsulation, Inheritance, etc.) |
